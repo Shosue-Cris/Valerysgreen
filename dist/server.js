@@ -9,7 +9,7 @@ const path_1 = __importDefault(require("path"));
 const express_ejs_layouts_1 = __importDefault(require("express-ejs-layouts"));
 const homeRoutes_1 = __importDefault(require("./routes/homeRoutes"));
 const app = (0, express_1.default)();
-const port = 3000;
+const port = 3005;
 app.set('view engine', 'ejs');
 app.set('views', path_1.default.join(__dirname, '../views'));
 app.use(express_ejs_layouts_1.default);

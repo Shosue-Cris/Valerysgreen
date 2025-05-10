@@ -5,7 +5,7 @@ import expressLayouts from 'express-ejs-layouts';
 import homeRoutes from './routes/homeRoutes';
 
 const app = express();
-const port = 3000;
+const port = 3005;
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '../views')); 
